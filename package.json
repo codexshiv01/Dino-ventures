@@ -1,0 +1,21 @@
+{
+  "name": "dino-wallet-service",
+  "version": "1.0.0",
+  "description": "Internal Wallet Service — Double-entry ledger with concurrency safety & idempotency",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:setup": "node scripts/dbSetup.js",
+    "test:concurrency": "node test/concurrency-test.js"
+  },
+  "keywords": ["wallet", "ledger", "fintech"],
+  "author": "Shivansh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "uuid": "^11.0.5"
+  }
+}
