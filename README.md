@@ -2,6 +2,22 @@
 
 A production-grade internal wallet service for a gaming/loyalty platform. Manages virtual currencies (Gold Coins, Diamonds, Loyalty Points) using a **double-entry ledger** with full **concurrency safety** and **idempotency**.
 
+## 🌐 Live Deployment
+
+> **Live URL**: [http://13.126.193.192:3000](http://13.126.193.192:3000)
+>
+> Deployed on **AWS EC2**
+
+**Try it now:**
+```bash
+# Health check
+curl http://13.126.193.192:3000/api/health
+
+# Check shivansh's balance
+curl http://13.126.193.192:3000/api/wallets/2/balance
+```
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -59,6 +75,7 @@ npm run db:setup
 docker-compose up --build
 # → Server runs on http://localhost:3000
 ```
+
 
 ---
 
