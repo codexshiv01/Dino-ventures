@@ -22,7 +22,7 @@ curl http://13.126.193.192:3000/api/wallets/2/balance
 
 ### Prerequisites
 - **Node.js** 20+
-- **PostgreSQL** — any PostgreSQL instance (local, Docker, or cloud like [Neon](https://neon.tech), [Supabase](https://supabase.com), AWS RDS, etc.)
+- **PostgreSQL** — any PostgreSQL instance (local, Docker, or cloud like [Neon](https://neon.tech), [Supabase](https://supabase.com), AWS RDS,)
 
 ### 1. Configure Environment
 
